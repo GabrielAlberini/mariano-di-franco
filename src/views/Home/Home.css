@@ -1,0 +1,50 @@
+.cont-main-bio {
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/img/bg-bio.jpg");
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%; /*Firefox 3.6*/
+  -o-background-size: 100% 100%; /*opera*/
+  -webkit-background-size: 100% 100%; /*Safari*/
+  background-size: 100% 100%; /*estandar css3*/
+}
+
+.cont-logo-bio {
+  width: 500px;
+  padding: 60px 0;
+}
+
+.cont-logo-bio img {
+  width: 100%;
+}
+
+.cont-txt-bio {
+  width: 400px;
+  padding: 60px 0;
+  text-align: justify;
+  font-family: var(--regular);
+  color: var(--primary);
+}
+
+.cont-txt-bio h1 {
+  font-size: 1em;
+  font-family: var(--semiBold);
+}
+
+.cont-txt-bio p {
+  font-size: 1.2em;
+}
+
+.cont-txt-bio p:last-child {
+  font-family: var(--semiBold);
+}
+
+@media (max-width: 880px) {
+  .cont-main-bio {
+    background-image: url("../../assets/img/bg-bio-mobile.jpg");
+    height: 100vh;
+  }
+}

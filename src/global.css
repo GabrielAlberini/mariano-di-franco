@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Bold-font;
+  src: url("./assets/fonts/SourceSerifPro-Bold.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: SemiBold;
+  src: url("./assets/fonts/SourceSansPro-Semibold.ttf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: Regular;
+  src: url("./assets/fonts/SourceSansPro-Regular.ttf");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+:root {
+  --bold: Bold-font;
+  --semiBold: SemiBold;
+  --regular: Regular;
+  --primary: #2c55a2;
+  --secondary: #a21920;
+  --third: #f8ac3f;
+  --white: #ffffff;
+  --black: #000000;
 }
 
-.App-link {
-  color: #61dafb;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  max-width: 1440px;
 }
