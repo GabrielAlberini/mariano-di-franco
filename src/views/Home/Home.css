@@ -44,7 +44,30 @@
 
 @media (max-width: 880px) {
   .cont-main-bio {
-    background-image: url("../../assets/img/bg-bio-mobile.jpg");
+    height: 150vh;
+  }
+
+  .cont-logo-bio {
+    width: 350px;
+    padding: 60px 0 40px 0;
+  }
+
+  .cont-txt-bio p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .cont-main-bio {
     height: 100vh;
+  }
+
+  .cont-logo-bio {
+    width: 220px;
+    padding: 140px 0 10px 0;
+  }
+
+  .cont-txt-bio p {
+    font-size: 0.7em;
   }
 }
