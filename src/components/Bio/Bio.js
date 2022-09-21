@@ -56,7 +56,6 @@ const Bio = () => {
           Sus creaciones son “Lorenzo el Vampiro” y “El duende de la magia.”
         </p>
       </div>
-      <button className="btn-bio">Actuación</button>
     </section>
   );
 };
