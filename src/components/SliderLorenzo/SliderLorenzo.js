@@ -1,10 +1,10 @@
-import "./SliderLaBestia.css";
+import "./SliderLorenzo.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import { SLIDER_BESTIA } from "../../services";
+import { SLIDER_LORENZO } from "../../services";
 
-const SliderLaBestia = () => {
+const SliderLorenzo = () => {
   return (
     <>
       <section className="cont-main-slider">
@@ -27,7 +27,7 @@ const SliderLaBestia = () => {
             },
           }}
         >
-          {SLIDER_BESTIA.map((item) => (
+          {SLIDER_LORENZO.map((item) => (
             <div className="item" key={item.id}>
               <img src={item.img} alt={item.alt} />
             </div>
@@ -38,4 +38,4 @@ const SliderLaBestia = () => {
   );
 };
 
-export { SliderLaBestia };
+export { SliderLorenzo };
