@@ -1,11 +1,25 @@
 import "./Home.css";
 import { Layout } from "../../components/Layout/Layout";
 import logoBio from "../../assets/resources/logo-bio.png";
+import manoAzul1 from "../../assets/resources/mano-azul-1.png";
+import manoAzul2 from "../../assets/resources/mano-azul-2.png";
+import pinchesTop from "../../assets/resources/pinches-arriba.png";
+import pinchesBottom from "../../assets/resources/pinches-abajo.png";
 
 const Home = () => {
   return (
     <Layout>
       <section className="cont-main-bio">
+        <div className="cont-pinches-top">
+          <img src={pinchesTop} alt="" />
+        </div>
+        <div className="cont-pinches-bottom">
+          <img src={pinchesBottom} alt="" />
+        </div>
+        <div className="cont-hands-bio">
+          <img className="blue-hand1" src={manoAzul1} alt="" />
+          <img className="blue-hand2" src={manoAzul2} alt="" />
+        </div>
         <div className="cont-logo-bio">
           <img src={logoBio} alt="" />
         </div>

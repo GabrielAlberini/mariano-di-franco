@@ -1,20 +1,52 @@
 .cont-main-bio {
-  height: 300vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("../../assets/img/bg-bio.jpg");
-  background-repeat: no-repeat;
-  -moz-background-size: 100% 100%; /*Firefox 3.6*/
-  -o-background-size: 100% 100%; /*opera*/
-  -webkit-background-size: 100% 100%; /*Safari*/
-  background-size: 100% 100%; /*estandar css3*/
+  position: relative;
+  z-index: 100;
+  padding-top: 400px;
+}
+
+.cont-pinches-top,
+.cont-pinches-bottom {
+  width: 100%;
+  position: absolute;
+}
+
+.cont-pinches-top img,
+.cont-pinches-bottom img {
+  width: 100%;
+}
+
+.cont-pinches-top {
+  top: 0;
+}
+
+.cont-pinches-bottom {
+  bottom: 0;
+  transform: rotate(180deg);
+  z-index: -100;
+}
+
+.blue-hand1 {
+  width: 350px;
+  transform: rotate(60deg);
+  position: absolute;
+  left: 20px;
+  top: 290px;
+}
+
+.blue-hand2 {
+  width: 690px;
+  transform: rotate(20deg);
+  position: absolute;
+  right: -150px;
+  top: 490px;
 }
 
 .cont-logo-bio {
-  width: 500px;
-  padding: 60px 0;
+  width: 600px;
 }
 
 .cont-logo-bio img {
@@ -22,11 +54,11 @@
 }
 
 .cont-txt-bio {
-  width: 400px;
-  padding: 60px 0;
+  width: 50%;
   text-align: justify;
   font-family: var(--regular);
   color: var(--primary);
+  margin: 140px 0 330px 0;
 }
 
 .cont-txt-bio h1 {
@@ -35,7 +67,7 @@
 }
 
 .cont-txt-bio p {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .cont-txt-bio p:last-child {
@@ -44,36 +76,55 @@
 
 @media (max-width: 880px) {
   .cont-main-bio {
-    height: 150vh;
+    padding-top: 240px;
+  }
+
+  .blue-hand1 {
+    width: 250px;
+    left: 0;
+    top: 150px;
+  }
+
+  .blue-hand2 {
+    width: 490px;
+    right: -110px;
+    top: 290px;
   }
 
   .cont-logo-bio {
-    width: 350px;
-    padding: 60px 0 40px 0;
+    width: 360px;
   }
 
-  .cont-txt-bio p {
-    font-size: 1em;
+  .cont-txt-bio {
+    width: 50%;
+    margin: 140px 0 200px 0;
   }
 }
 
 @media (max-width: 480px) {
   .cont-main-bio {
-    height: 150vh;
+    padding-top: 150px;
+  }
+
+  .blue-hand1 {
+    width: 130px;
+    left: 0;
+    top: 110px;
+  }
+
+  .blue-hand2 {
+    width: 260px;
+    right: -60px;
+    top: 180px;
   }
 
   .cont-logo-bio {
-    width: 250px;
-    padding-top: 230px;
-    padding-bottom: 100px;
+    width: 240px;
   }
 
   .cont-txt-bio {
-    width: 60%;
-    padding-top: 0px;
-  }
-
-  .cont-txt-bio p {
+    width: 70%;
+    margin: 120px 0 100px 0;
     font-size: 0.9em;
   }
 }
