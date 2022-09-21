@@ -59,15 +59,21 @@
 
 @media (max-width: 480px) {
   .cont-main-bio {
-    height: 100vh;
+    height: 150vh;
   }
 
   .cont-logo-bio {
-    width: 220px;
-    padding: 140px 0 10px 0;
+    width: 250px;
+    padding-top: 230px;
+    padding-bottom: 100px;
+  }
+
+  .cont-txt-bio {
+    width: 60%;
+    padding-top: 0px;
   }
 
   .cont-txt-bio p {
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 }
