@@ -51,8 +51,15 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   .cont-txt-bestia {
-    width: 80%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cont-main-tecnica-bestia {
+    background-color: var(--primary);
+    padding: 1em;
   }
 }

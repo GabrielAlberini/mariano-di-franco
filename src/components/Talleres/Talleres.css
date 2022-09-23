@@ -92,7 +92,7 @@
 
 @media (max-width: 880px) {
   .cont-main-talleres {
-    padding: 1em;
+    padding: 0;
     width: 100%;
   }
 
@@ -102,7 +102,7 @@
 
   .cont-main-talleres article {
     flex-direction: column-reverse;
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: justify;
   }

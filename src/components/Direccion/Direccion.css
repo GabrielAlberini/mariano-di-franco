@@ -65,8 +65,8 @@
 
 .cont-main-txt-direccion,
 .cont-main-txt-grid {
-  padding: 20px;
   padding-top: 0;
+  margin: auto;
 }
 
 .cont-main-grid {
