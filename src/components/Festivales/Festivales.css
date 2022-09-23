@@ -1,0 +1,55 @@
+.cont-main-festivales h2 {
+  padding-bottom: 2em;
+  text-transform: uppercase;
+  font-family: var(--bold);
+  font-size: 1.5em;
+  text-align: center;
+  color: var(--secondary);
+}
+.cont-list-festivales {
+  margin: auto;
+  width: 100%;
+}
+
+.cont-list-festivales li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-list-festivales ul {
+  padding: 0;
+  width: 80%;
+  margin: auto;
+}
+
+.cont-rayito {
+  width: 70px !important;
+  height: 50px;
+}
+
+.cont-rayito img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .cont-list-festivales {
+    width: 100%;
+  }
+
+  .cont-list-festivales ul {
+    width: 90%;
+  }
+
+  .cont-list-festivales li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cont-list-festivales li p {
+    width: 300px;
+    text-align: start;
+  }
+}

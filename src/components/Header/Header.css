@@ -22,7 +22,7 @@ header {
 }
 
 .nav-link {
-  width: 90px;
+  width: 120px;
   text-align: center;
   font-family: var(--semiBold) !important;
   color: var(--white) !important;
