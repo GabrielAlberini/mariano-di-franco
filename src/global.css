@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Bold-font;
-  src: url("./assets/fonts/SourceSerifPro-Bold.ttf");
+  font-family: BoldF;
+  src: url("./assets/fonts/SourceSansPro-Black.ttf");
 }
 
 @font-face {
@@ -14,10 +14,10 @@
 }
 
 :root {
-  --bold: Bold-font;
+  --bold: BoldF;
   --semiBold: SemiBold;
   --regular: Regular;
-  --primary: #2c55a2;
+  --primary: #276ab2;
   --secondary: #a21920;
   --third: #f8ac3f;
   --white: #ffffff;

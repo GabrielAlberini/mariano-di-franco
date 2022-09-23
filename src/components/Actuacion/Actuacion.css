@@ -9,10 +9,9 @@
   width: 150px;
   border-radius: 10px;
   text-transform: uppercase;
-  font-family: var(--semiBold);
+  font-family: var(--bold);
   font-size: 1.5em;
   color: var(--secondary);
-  background-color: var(--white);
   margin: 0 auto;
   padding: 10px;
 }

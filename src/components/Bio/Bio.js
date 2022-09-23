@@ -55,6 +55,14 @@ const Bio = () => {
         <p>
           Sus creaciones son “Lorenzo el Vampiro” y “El duende de la magia.”
         </p>
+        <a
+          className="link-yt"
+          href="https://youtu.be/ZQldGpzoiYc"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Las palabras de Mariano
+        </a>
       </div>
     </section>
   );

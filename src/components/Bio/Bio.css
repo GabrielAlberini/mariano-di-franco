@@ -83,6 +83,23 @@
   font-family: var(--semiBold);
 }
 
+.link-yt {
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary);
+  border-radius: 10px;
+  outline: 1px solid var(--primary);
+  display: block;
+  width: 250px;
+  padding: 10px 15px;
+  margin: 3em auto 0 auto;
+  transition: all 0.2s;
+}
+.link-yt:hover {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
 @media (max-width: 880px) {
   .cont-main-bio {
     padding-top: 240px;
@@ -135,5 +152,10 @@
     width: 70%;
     margin: 120px 0 60px 0;
     font-size: 0.9em;
+  }
+
+  .link-yt {
+    width: 200px;
+    margin: 3em auto 4em auto;
   }
 }
