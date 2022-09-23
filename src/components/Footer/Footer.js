@@ -17,6 +17,20 @@ const Footer = () => {
           <img src={manoRojaDer} alt="" />
         </div>
       </div>
+      <h5>
+        ©Copyright 2022 / Sitio desarrollado por{" "}
+        <a
+          href="https://gabrielalberini.com.ar"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Gabriel Alberini
+        </a>{" "}
+        y{" "}
+        <a href="https://natifessia.com.ar" target="_blank" rel="noreferrer">
+          Nati Fessia.
+        </a>
+      </h5>
     </footer>
   );
 };

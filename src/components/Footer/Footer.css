@@ -1,13 +1,12 @@
 footer {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 300px;
-  background-color: blanchedalmond;
+  height: 400px;
   margin-top: 4em;
   position: relative;
-  overflow-y: hidden;
 }
 
 .cont-main-footer div:first-child,
@@ -16,8 +15,8 @@ footer {
 }
 
 .logo-footer {
-  width: 150px;
-  margin: auto;
+  width: 220px;
+  margin: 2em auto;
 }
 
 .logo-footer img {
@@ -26,7 +25,6 @@ footer {
 
 .manoIzq,
 .manoDer {
-  width: 150px;
   position: absolute;
 }
 
@@ -35,7 +33,7 @@ footer {
 }
 
 .manoDer img {
-  width: 450px;
+  width: 440px;
 }
 
 .manoIzq {
@@ -44,6 +42,68 @@ footer {
 }
 
 .manoDer {
-  bottom: 0;
-  right: 200px;
+  bottom: -40px;
+  right: 250px;
+}
+
+footer h5 {
+  font-size: 0.6em;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+footer a:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 880px) {
+  .manoIzq {
+    bottom: -40px;
+    left: -150px;
+  }
+
+  .manoDer {
+    bottom: -40px;
+    right: 200px;
+  }
+
+  footer h5 {
+    margin-bottom: 4em;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    margin-top: 2em;
+  }
+
+  .logo-footer {
+    width: 120px;
+    margin: 2em auto;
+  }
+
+  .manoDer img {
+    width: 200px;
+  }
+
+  .manoIzq img {
+    width: 240px;
+  }
+
+  .manoIzq {
+    bottom: 100px;
+    left: -50px;
+  }
+
+  .manoDer {
+    bottom: 95px;
+    right: 60px;
+  }
+
+  footer h5 {
+    margin-top: 5em;
+  }
 }
