@@ -111,6 +111,10 @@
   .cont-main-direction h2 {
     grid-column: span 2;
   }
+
+  .cont-main-txt-direccion h3 {
+    text-align: start;
+  }
 }
 
 @media (max-width: 480px) {
