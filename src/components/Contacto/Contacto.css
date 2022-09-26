@@ -1,18 +1,25 @@
 .cont-main-contact {
   text-align: center;
+  width: 100%;
 }
 
 .cont-main-contact svg {
   width: 20px;
+  margin-right: 0.3em;
 }
 
 .cont-txt-contact {
   margin-top: 2em;
 }
 
+.cont-img-contacto {
+  padding: 1em;
+}
+
 .btn-close-contacto {
   text-align: right;
-  margin-bottom: 1em;
+  margin: 0.5em 0.5em 0 0;
+  float: right;
 }
 
 @media (max-width: 880px) {

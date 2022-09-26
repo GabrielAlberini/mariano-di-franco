@@ -62,4 +62,9 @@
     background-color: var(--primary);
     padding: 1em;
   }
+
+  .cont-link-lorenzo {
+    margin-top: 3em;
+    font-size: 0.7em;
+  }
 }

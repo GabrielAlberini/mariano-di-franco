@@ -37,6 +37,8 @@
 @media (max-width: 480px) {
   .cont-list-festivales {
     width: 100%;
+    font-size: 0.7em;
+    text-align: start;
   }
 
   .cont-list-festivales ul {

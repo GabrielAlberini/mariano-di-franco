@@ -113,7 +113,15 @@
 }
 
 @media (max-width: 480px) {
+  .cont-main-talleres {
+    font-size: 0.7em;
+    text-align: start;
+  }
   .cont-main-talleres h3 {
     text-align: start;
+  }
+
+  .cont-main-talleres h4 {
+    font-size: 1em;
   }
 }
