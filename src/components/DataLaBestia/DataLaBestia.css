@@ -57,7 +57,7 @@
 @media (max-width: 480px) {
   .cont-txt-bestia {
     font-size: 0.7em;
-    text-align: left;
+    text-align: start !important;
   }
   .cont-tecnica-bestia {
     font-size: 0.7em;

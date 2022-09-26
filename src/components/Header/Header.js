@@ -27,7 +27,7 @@ function Header() {
                 <Nav.Link href="#docencia">Docencia</Nav.Link>
                 <Nav.Link href="#festivales">Festivales</Nav.Link>
                 <Nav.Link
-                  href="#link"
+                  href="/"
                   className="button-header-contact"
                   onClick={() => {
                     setContacto(!contacto);
