@@ -56,6 +56,7 @@
 
 .cont-logo-bio {
   width: 600px;
+  z-index: 3000;
 }
 
 .cont-logo-bio img {
