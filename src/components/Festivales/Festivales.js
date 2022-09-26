@@ -5,7 +5,7 @@ import { FESTIVALES } from "../../services";
 const Festivales = () => {
   return (
     <>
-      <section className="cont-main-festivales">
+      <section id="festivales" className="cont-main-festivales">
         <h2>Festivales donde ha participado</h2>
         <div className="cont-list-festivales">
           <ul>

@@ -13,9 +13,9 @@ function Header() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="#home">Actuación</Nav.Link>
-                <Nav.Link href="#link">Dirección</Nav.Link>
-                <Nav.Link href="#link">Docencia</Nav.Link>
-                <Nav.Link href="#link">Festivales</Nav.Link>
+                <Nav.Link href="#direccion">Dirección</Nav.Link>
+                <Nav.Link href="#docencia">Docencia</Nav.Link>
+                <Nav.Link href="#festivales">Festivales</Nav.Link>
                 <Nav.Link href="#link" className="button-header-contact">
                   Contacto
                 </Nav.Link>

@@ -7,7 +7,7 @@ import pinchesBottom from "../../assets/resources/tools/pinches-abajo.png";
 
 const Bio = () => {
   return (
-    <section className="cont-main-bio">
+    <section id="home" className="cont-main-bio">
       <div className="cont-pinches-top">
         <img src={pinchesTop} alt="" />
       </div>

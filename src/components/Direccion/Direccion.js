@@ -15,7 +15,7 @@ import grid10 from "../../assets/img/direccion/10.jpg";
 
 const Direccion = () => {
   return (
-    <section className="cont-main-direction">
+    <section id="direccion" className="cont-main-direction">
       <div className="cont-pinches-top-direccion">
         <img src={pinchesTop} alt="" />
       </div>
