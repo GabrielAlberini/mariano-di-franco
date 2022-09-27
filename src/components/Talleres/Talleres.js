@@ -39,12 +39,9 @@ const Talleres = () => {
                 lenguajes escénicos.
               </p>
               <p>
-                A través de distintas “experiencias” se introducirá a quienes
-                participen de este taller a descubrir las particularidades de
-                este antiguo lenguaje, para poder así diferenciarlos de otros
-                lenguajes escénicos. Una propuesta que está dirigida a quienes
-                tengan la intención de conocer o potenciar su parte más cómica.
-                Ese lugar que es muy parecido a nosotres mismes.
+                Una propuesta que está dirigida a quienes tengan la intención de
+                conocer o potenciar su parte más cómica. Ese lugar que es muy
+                parecido a nosotres mismes.
               </p>
               <h4>Objetivo</h4>
               <ul>
