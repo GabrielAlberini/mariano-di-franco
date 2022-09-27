@@ -1,7 +1,7 @@
 .cont-title-section {
   text-align: center;
-  background-color: #81a5d0;
-  padding: 2em;
+  background-color: var(--primary);
+  padding: 1em 0 2em 0;
 }
 
 .cont-title-section h2 {
