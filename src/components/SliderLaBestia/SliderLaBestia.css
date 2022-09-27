@@ -1,5 +1,5 @@
 .cont-main-slider {
-  background-color: #81a5d0;
+  background-color: var(--black) !important;
 }
 
 .item {

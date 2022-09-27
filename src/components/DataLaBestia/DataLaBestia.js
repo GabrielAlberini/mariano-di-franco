@@ -35,7 +35,13 @@ const DataLaBestia = () => {
       </div>
       <div className="cont-link-bestia">
         <a href="">Descargar Dossier</a>
-        <a href="">Registro audiovisual</a>
+        <a
+          href="https://youtube.com/channel/UCnwGs2MH_qCNGSuAAAKkipw"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Registro audiovisual
+        </a>
       </div>
     </section>
   );
