@@ -55,6 +55,10 @@ const Bio = () => {
         <p>
           Sus creaciones son “Lorenzo el Vampiro” y “El duende de la magia.”
         </p>
+        <p>
+          Actualmente es miembro de CRAMI (colectivo rosarino de artistas de la
+          magia e ilusionismo) organizadores del Festival de Magia de Rosario.
+        </p>
         <a
           className="link-yt"
           href="https://youtu.be/ZQldGpzoiYc"

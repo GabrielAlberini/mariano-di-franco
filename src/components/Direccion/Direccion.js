@@ -49,7 +49,7 @@ const Direccion = () => {
           <li>Liana Barrale, (Argentina)</li>
           <li>Alejandra Ibañez (México)</li>
           <li>Compañía Cartoncito (Argentina)</li>
-          <li>Compañía Gato Blanco Gato Negro</li>
+          <li>Compañía Gato Blanco Gato Negro (Argentina)</li>
           <li>Cía. Circo Dueto (Argentina/Uruguay)</li>
           <li>Países Mágicos (Argentina)</li>
           <li>Cía. Pato Mojado (Argentina)</li>

@@ -43,7 +43,7 @@ const Talleres = () => {
                 conocer o potenciar su parte más cómica. Ese lugar que es muy
                 parecido a nosotres mismes.
               </p>
-              <h4>Objetivo</h4>
+              <h4>Objetivos: </h4>
               <ul>
                 <li>
                   / Buscar lo ridículo y estúpido en nosotres para hacer reír a
@@ -72,9 +72,10 @@ const Talleres = () => {
           </div>
           <div>
             <h3>Taller de creación</h3>
-            <p>Taller de creación</p>
+            <p>El impulso creador</p>
             <p className="cita-creacion">
               …”en una gota de agua se esconde todo el universo”…
+              <span className="cita">(Jacques Lecoq)</span>
             </p>
             <p>
               Todo acto de creación artística nace de un impulso consciente o
@@ -90,13 +91,7 @@ const Talleres = () => {
               vista sobre la creación relacionada al trabajo escénico.
             </p>
             <div className="txt-black-taller1">
-              <p>
-                A través de distintas “experiencias” se introducirá a quienes
-                participen de este taller a descubrir las particularidades de
-                este antiguo lenguaje, para poder así diferenciarlos de otros
-                lenguajes escénicos.
-              </p>
-              <h4>A través de la experiencia lúdica abordaremos:</h4>
+              <h4>Abordaremos: </h4>
               <ul>
                 <li>Ejercicios de estimulación creativa.</li>
                 <li>Ejercicios de composición.</li>
@@ -129,6 +124,7 @@ const Talleres = () => {
               …”Transitaremos por los desniveles de nuestra fragilidad para
               descubrirnos a nosotrxs mismxs y hacer de esto algo bello para
               compartir en la escena”...
+              <span className="cita">(Phillip Gaulier)</span>
             </p>
             <p>
               Las máscaras serán utilizadas como herramientas pedagógicas para
@@ -148,23 +144,15 @@ const Talleres = () => {
               <li>/ Expresivas</li>
             </ul>
             <div className="txt-black-taller1">
-              <p>
-                A través de distintas “experiencias” se introducirá a quienes
-                participen de este taller a descubrir las particularidades de
-                este antiguo lenguaje, para poder así diferenciarlos de otros
-                lenguajes escénicos. Una propuesta que está dirigida a quienes
-                tengan la intención de conocer o potenciar su parte más cómica.
-                Ese lugar que es muy parecido a nosotres mismes.
-              </p>
               <h4>Objetivos:</h4>
               <ul>
                 <li>
-                  Que les participantes puedan vivenciar la experiencia de las
+                  / Que les participantes puedan vivenciar la experiencia de las
                   máscaras ampliando la conciencia de las posibilidades técnicas
                   que tienen en la escena.
                 </li>
                 <li>
-                  Transitar la experiencia del abordaje de la técnica para
+                  / Transitar la experiencia del abordaje de la técnica para
                   posteriormente poder ponerlo en práctica en los ejercicios de
                   improvisación.
                 </li>
