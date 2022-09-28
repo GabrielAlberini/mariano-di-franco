@@ -6,11 +6,11 @@ import grid1 from "../../assets/img/direccion/1.jpg";
 import grid2 from "../../assets/img/direccion/2.jpg";
 import grid3 from "../../assets/img/direccion/3.jpg";
 import grid4 from "../../assets/img/direccion/4.jpg";
-import grid5 from "../../assets/img/direccion/5.jpg";
+import grid5 from "../../assets/img/direccion/5.jpeg";
 import grid6 from "../../assets/img/direccion/6.jpg";
 import grid7 from "../../assets/img/direccion/7.jpg";
 import grid8 from "../../assets/img/direccion/8.jpg";
-import grid9 from "../../assets/img/direccion/9.jpg";
+import grid9 from "../../assets/img/direccion/9.jpeg";
 import grid10 from "../../assets/img/direccion/10.jpg";
 
 const Direccion = () => {
