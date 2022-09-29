@@ -131,6 +131,7 @@
   .cont-main-direction h2 {
     grid-column: span 2;
     padding-top: 130px;
+    color: var(--secondary);
   }
 
   .rayito {

@@ -11,7 +11,7 @@
   text-transform: uppercase;
   font-family: var(--bold);
   font-size: 1.5em;
-  color: var(--secondary);
+  color: var(--black);
   margin: 0 auto;
   padding: 10px;
 }
