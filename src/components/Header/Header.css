@@ -4,6 +4,7 @@ header {
   width: 100%;
   background-color: #266ab1;
   z-index: 200;
+  max-width: 1440px;
 }
 
 .navbar.navbar-expand-lg.navbar-light {
